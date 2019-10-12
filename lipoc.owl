@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#"
+     xml:base="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:frbr="http://purl.org/vocab/frbr/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core# ">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#analyses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#analyses">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_analysed_by"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#experiences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#experiences">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_experienced_in"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Change"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#has_main_idea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#has_main_idea">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_main_idea_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_analysed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_analysed_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_experienced_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_experienced_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Change"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_main_idea_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_main_idea_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_reflected_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_reflected_in">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#reflects"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Ego"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Id"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Superego"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_resulted_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_resulted_in">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#results_in"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Alienation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_storified -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_storified">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#storifies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fiction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_transferred_into -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_transferred_into">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#reflects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#reflects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Ego"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Id"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Superego"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#results_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#results_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Alienation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#shapes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#shapes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#storifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#storifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fiction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#transfers_into -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#transfers_into">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>An entity in some way responsible for the creation of a work.</rdfs:comment>
+        <rdfs:label rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Agent">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Expression"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Alienation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Alienation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+        <rdfs:comment>The concept of alienation identifies a distinct kind of psychological or social ill; namely, one involving a problematic separation between a self and other that properly belong together.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept">
+        <rdfs:comment rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>A concept can be viewed as an idea or notion; a unit of thought.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Ego -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Ego">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+        <rdfs:comment>Ego is the balance between the instinct of the id and the morality of the superego.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Expression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Expression">
+        <rdfs:comment rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:comment>A realization of a single work usually in a physical form.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person"/>
+        <rdfs:comment>A fictional character is a person in a narrative work of art. The character can be completely fictional or based on a real-life person.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Id -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Id">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+        <rdfs:comment>Id is related with pleasure; it is the unconscious force that drives us toward our intrinsic needs, importantly sexual and aggressive, but also our wants and desires.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Metaphor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Metaphor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:comment>A Metaphor makes an implicit, implied, or hidden comparison between two things that are unrelated, but which share some common characteristics.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Repetition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Repetition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:comment>As a rhetorical device, it could be a word, a phrase, or a full sentence, or a poetical line repeated to emphasize its significance in the entire text.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Simile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Simile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:comment>A simile is a figure of speech that makes a comparison, showing similarities between two different things.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Superego -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Superego">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis"/>
+        <rdfs:comment>Superego is our mind’s sense of morality, typically learned from our parents.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Symbolism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Symbolism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:comment>Symbolism is the use of symbols to signify ideas and qualities, by giving them symbolic meanings that are different from their literal sense.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Synonyms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Synonyms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis"/>
+        <rdfs:comment>Synonyms are a group of words having similar meanings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Dr.Jekyll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Dr.Jekyll">
+        <rdf:type rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Gregor_Samsa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Gregor_Samsa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Hyde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Hyde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Utterson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Utterson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#The_father -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#The_father">
+        <rdf:type rdf:resource="http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
