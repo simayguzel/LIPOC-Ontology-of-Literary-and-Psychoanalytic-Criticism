@@ -1,0 +1,1399 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.5]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://purl.org/dc/elements/1.1"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "skos": "http://www.w3.org/2004/02/skos/core# ",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "frbr": "http://purl.org/vocab/frbr/core#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.43",
+      "translation": [
+        382.73,
+        145.99
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "9",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "28",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "45",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Change",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Change"
+      },
+      "pos": [
+        796.05,
+        108.99
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fictional_character",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Fictional_character"
+      },
+      "comment": {
+        "undefined": "A fictional character is a person in a narrative work of art. The character can be completely fictional or based on a real-life person."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Hyde",
+          "labels": {
+            "IRI-based": "Mr.Hyde"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Mr.Utterson",
+          "labels": {
+            "IRI-based": "Mr.Utterson"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Dr.Jekyll",
+          "labels": {
+            "IRI-based": "Dr.Jekyll"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Gregor_Samsa",
+          "labels": {
+            "IRI-based": "Gregor_Samsa"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#The_father",
+          "labels": {
+            "IRI-based": "The_father"
+          }
+        }
+      ],
+      "pos": [
+        443.71,
+        309.55
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Psychoanalysis",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Psychoanalysis"
+      },
+      "pos": [
+        183,
+        108.26
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Symbolism",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Symbolism"
+      },
+      "comment": {
+        "undefined": "Symbolism is the use of symbols to signify ideas and qualities, by giving them symbolic meanings that are different from their literal sense."
+      },
+      "pos": [
+        1513.67,
+        13.4
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Agent",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Agent"
+      },
+      "pos": [
+        -148.5,
+        801.25
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Superego",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Superego"
+      },
+      "comment": {
+        "undefined": "Superego is our mind’s sense of morality, typically learned from our parents."
+      },
+      "pos": [
+        -63.94,
+        -277.73
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Metaphor",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Metaphor"
+      },
+      "comment": {
+        "undefined": "A Metaphor makes an implicit, implied, or hidden comparison between two things that are unrelated, but which share some common characteristics."
+      },
+      "pos": [
+        1248.57,
+        599.45
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Alienation",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Alienation"
+      },
+      "comment": {
+        "undefined": "The concept of alienation identifies a distinct kind of psychological or social ill; namely, one involving a problematic separation between a self and other that properly belong together."
+      },
+      "pos": [
+        853.04,
+        156.16
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_text",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Literary_text"
+      },
+      "pos": [
+        717.02,
+        1009.75
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Expression",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Expression"
+      },
+      "comment": {
+        "undefined": "http://purl.org/vocab/frbr/core#Expression"
+      },
+      "pos": [
+        727.75,
+        1378.96
+      ]
+    },
+    {
+      "id": "49",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        196.84,
+        -72.57
+      ]
+    },
+    {
+      "id": "9",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        -440.38,
+        -198.38
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        867.88,
+        888.04
+      ]
+    },
+    {
+      "id": "28",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        658.5,
+        688.54
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "anyURI"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        539.43,
+        1216.07
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Concept",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Concept"
+      },
+      "comment": {
+        "undefined": "A concept can be viewed as an idea or notion; a unit of thought."
+      },
+      "pos": [
+        714.75,
+        240.29
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Repetition",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Repetition"
+      },
+      "comment": {
+        "undefined": "As a rhetorical device, it could be a word, a phrase, or a full sentence, or a poetical line repeated to emphasize its significance in the entire text."
+      },
+      "pos": [
+        1561.23,
+        325.3
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Simile",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Simile"
+      },
+      "comment": {
+        "undefined": "A simile is a figure of speech that makes a comparison, showing similarities between two different things."
+      },
+      "pos": [
+        1274.95,
+        -159.24
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Ego",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Ego"
+      },
+      "comment": {
+        "undefined": "Ego is the balance between the instinct of the id and the morality of the superego."
+      },
+      "pos": [
+        -196.32,
+        96.55
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Literary_themes",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Literary_themes"
+      },
+      "pos": [
+        923.43,
+        538.35
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Linguistic_analysis",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Linguistic_analysis"
+      },
+      "pos": [
+        1196.5,
+        220.98
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Person",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Person"
+      },
+      "pos": [
+        65.61,
+        496.87
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Fiction",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Fiction"
+      },
+      "pos": [
+        417.82,
+        750.92
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Id",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Id"
+      },
+      "comment": {
+        "undefined": "Id is related with pleasure; it is the unconscious force that drives us toward our intrinsic needs, importantly sexual and aggressive, but also our wants and desires."
+      },
+      "pos": [
+        -162.85,
+        -35.64
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Synonyms",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Synonyms"
+      },
+      "comment": {
+        "undefined": "Synonyms are a group of words having similar meanings."
+      },
+      "pos": [
+        1426.88,
+        533.03
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "4",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "17",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "27",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "43",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "44",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "48",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "50",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "51",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "52",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "53",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "54",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "55",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "56",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "57",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "58",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "59",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "60",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "61",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "62",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "GENERATED-UNION-49-12-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-49-13-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-49-14-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-9-12-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-9-13-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-9-14-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-28-2-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-28-7-1",
+      "type": "setOperatorProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#results_in",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "results_in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "5",
+      "inverse": "62",
+      "pos": [
+        657.43,
+        229.46
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_main_idea_of",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_main_idea_of"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "7",
+      "inverse": "59",
+      "pos": [
+        820.23,
+        774.05
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#reflects",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "reflects"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "49",
+      "inverse": "48",
+      "pos": [
+        315.03,
+        110.37
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#storifies",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "storifies"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "2",
+      "inverse": "60",
+      "pos": [
+        430.2,
+        539.89
+      ]
+    },
+    {
+      "id": "19",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "15",
+      "range": "16",
+      "pos": [
+        1355.09,
+        117.19
+      ]
+    },
+    {
+      "id": "20",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "21",
+      "range": "16",
+      "pos": [
+        1235.73,
+        30.87
+      ]
+    },
+    {
+      "id": "22",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "2",
+      "range": "3",
+      "pos": [
+        246,
+        407.5
+      ]
+    },
+    {
+      "id": "24",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "25",
+      "range": "16",
+      "pos": [
+        1222.54,
+        410.22
+      ]
+    },
+    {
+      "id": "26",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "5",
+      "range": "1",
+      "pos": [
+        888.24,
+        347.25
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://purl.org/dc/elements/1.1/creator",
+      "baseIri": "http://purl.org/dc/elements/1.1",
+      "label": {
+        "IRI-based": "creator",
+        "undefined": "http://purl.org/dc/elements/1.1/creator"
+      },
+      "attributes": [
+        "datatype",
+        "external"
+      ],
+      "comment": {
+        "undefined": "An entity in some way responsible for the creation of a work."
+      },
+      "domain": "28",
+      "range": "29",
+      "pos": [
+        776.04,
+        800.54
+      ]
+    },
+    {
+      "id": "30",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "31",
+      "range": "16",
+      "pos": [
+        1378.87,
+        273.14
+      ]
+    },
+    {
+      "id": "32",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "33",
+      "range": "16",
+      "pos": [
+        1311.69,
+        377.01
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        448.88,
+        174.27
+      ]
+    },
+    {
+      "id": "36",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "16",
+      "range": "11",
+      "pos": [
+        955.63,
+        230.63
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        859.74,
+        323.67
+      ]
+    },
+    {
+      "id": "38",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "18",
+      "range": "7",
+      "pos": [
+        567.42,
+        880.34
+      ]
+    },
+    {
+      "id": "39",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "3",
+      "range": "23",
+      "pos": [
+        -41.45,
+        649.06
+      ]
+    },
+    {
+      "id": "40",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "1",
+      "range": "11",
+      "pos": [
+        819.09,
+        389.32
+      ]
+    },
+    {
+      "id": "41",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "7",
+      "range": "34",
+      "pos": [
+        722.39,
+        1194.36
+      ]
+    },
+    {
+      "id": "42",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "12",
+      "range": "10",
+      "pos": [
+        59.53,
+        -84.73
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#transfers_into",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "transfers_into"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "2",
+      "pos": [
+        423.69,
+        141.67
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#Title",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "Title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "http://purl.org/dc/elements/1.1/title"
+      },
+      "domain": "7",
+      "range": "45",
+      "pos": [
+        616.22,
+        1126.86
+      ]
+    },
+    {
+      "id": "46",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "14",
+      "range": "10",
+      "pos": [
+        10.08,
+        36.31
+      ]
+    },
+    {
+      "id": "47",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "13",
+      "range": "10",
+      "pos": [
+        -6.66,
+        102.41
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_reflected_in",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_reflected_in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "49",
+      "range": "2",
+      "inverse": "8"
+    },
+    {
+      "id": "50",
+      "label": "Disjoint With",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "7",
+      "range": "23"
+    },
+    {
+      "id": "51",
+      "label": "Disjoint With",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "1",
+      "range": "16"
+    },
+    {
+      "id": "52",
+      "label": "Disjoint With",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "1",
+      "range": "10"
+    },
+    {
+      "id": "53",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#shapes",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "shapes"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "16",
+      "range": "1",
+      "pos": [
+        1059.97,
+        379.66
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#experiences",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "experiences"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "0",
+      "inverse": "55",
+      "pos": [
+        628.28,
+        204.49
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_experienced_in",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_experienced_in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "2",
+      "inverse": "54"
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_analysed_by",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_analysed_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "10",
+      "inverse": "61",
+      "pos": [
+        124.31,
+        302.57
+      ]
+    },
+    {
+      "id": "57",
+      "label": "Disjoint With",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "11",
+      "range": "23"
+    },
+    {
+      "id": "58",
+      "label": "Disjoint With",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "34",
+      "range": "23"
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#has_main_idea",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "has_main_idea"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "7",
+      "range": "1",
+      "inverse": "6"
+    },
+    {
+      "id": "60",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_storified",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_storified"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "18",
+      "inverse": "17"
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#analyses",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "analyses"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "3",
+      "inverse": "56"
+    },
+    {
+      "id": "62",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_resulted_in",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_resulted_in"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "2",
+      "inverse": "4"
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc#is_transferred_into",
+      "baseIri": "http://www.semanticweb.org/simayguzel/ontologies/2019/9/lipoc",
+      "label": {
+        "IRI-based": "is_transferred_into"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "2",
+      "pos": [
+        508.42,
+        157.71
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-49-12-0",
+      "domain": "49",
+      "range": "12",
+      "pos": [
+        66.45,
+        -175.15
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-49-13-1",
+      "domain": "49",
+      "range": "13",
+      "pos": [
+        0.26,
+        11.99
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-49-14-2",
+      "domain": "49",
+      "range": "14",
+      "pos": [
+        17,
+        -54.11
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-9-12-0",
+      "domain": "9",
+      "range": "12",
+      "pos": [
+        -252.16,
+        -238.05
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-9-13-1",
+      "domain": "9",
+      "range": "13",
+      "pos": [
+        -318.35,
+        -50.91
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-9-14-2",
+      "domain": "9",
+      "range": "14",
+      "pos": [
+        -301.61,
+        -117.01
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-28-2-0",
+      "domain": "28",
+      "range": "2",
+      "pos": [
+        555.87,
+        507.45
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-28-7-1",
+      "domain": "28",
+      "range": "7",
+      "pos": [
+        687.76,
+        849.15
+      ]
+    }
+  ]
+}
