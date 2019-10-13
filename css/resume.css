@@ -164,9 +164,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #D1D2E7 !important;
+  color: #084D80 !important;
 }
 
+table tr {
+  color: #084D80;
+}
+table td {
+  color: #084D80;
+}
 a {
   color: #A6AA17;
 }
